@@ -123,7 +123,8 @@ $(function() {
                 /* This callBack function stores the title of New-Feed's first entry, only when
                  * the loadFeed function ends its asynchronous tasks
                  */
-                var newTitleOfFirstEntry = $('.feed').find('h2')[0].innerText;
+                newTitleOfFirstEntry = $('.feed').find('h2')[0].innerText;
+
                 // and passes control the the suit's it spec
                 done();
             });
